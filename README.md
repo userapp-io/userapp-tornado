@@ -1,6 +1,8 @@
-# userapp-tornado
+# UserApp for Tornado (Python)
 
-UserApp support for the Tornado web framework.
+This library adds UserApp support for the Python Tornado web framework. By simple decorators you can easily tap into the power of UserApp. Authenticate your users in just one line of code!
+
+*UserApp is a cloud-based user management API for web apps with the purpose to relieve developers from having to program logic for user authentication, sign-up, invoicing, feature/property/permission management, and more.*
 
 ## Getting started
 
