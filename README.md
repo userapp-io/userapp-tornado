@@ -16,15 +16,15 @@ Load the library:
     
 ## Decorators
 
-#### userapp.tornado.config(string app_id, string cookie_name)
+#### config(string app_id, string cookie_name)
 
 All handlers should always be decorated with this.
 
-#### userapp.tornado.authorized()
+#### authorized()
 
 Require that a request is authorized with UserApp. Once authenticated, use `self.user_id` to retrieve the identity of your user.
 
-#### userapp.tornado.has_permission(mixed permission)
+#### has_permission(mixed permission)
 
 Assert that an authorized user has a specific permission. Can either be a single string or an array of strings.
 
