@@ -20,7 +20,7 @@ Load the library:
 
 #### config(string app_id, string cookie_name)
 
-All handlers should always be decorated with this.
+All handlers should always be decorated with this. Go [here](https://help.userapp.io/customer/portal/articles/1322336-how-do-i-find-my-app-id-) to find your App Id.
 
 #### authorized()
 
@@ -34,7 +34,7 @@ Assert that an authorized user has a specific permission. Can either be a single
 
     import userapp.tornado
 
-    @userapp.tornado.config(app_id=config.APP_ID)
+    @userapp.tornado.config(app_id='YOUR_APP_ID')
     class ForumThreadHandler(tornado.web.RequestHandler):
         def get(self):
             """Read all threads."""
