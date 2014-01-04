@@ -22,7 +22,7 @@ All handlers should always be decorated with this.
 
 #### userapp.tornado.authorized()
 
-Require that a service is authorized with UserApp. Once authenticated, use `self.user_id` to retrieve the identity of your user.
+Require that a request is authorized with UserApp. Once authenticated, use `self.user_id` to retrieve the identity of your user.
 
 #### userapp.tornado.has_permission(mixed permission)
 
