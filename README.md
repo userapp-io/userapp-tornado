@@ -26,7 +26,7 @@ Require that a request is authorized with UserApp. Once authenticated, use `self
 
 #### userapp.tornado.has_permission(mixed permission)
 
-Assert that an authorized user has a specific permission.
+Assert that an authorized user has a specific permission. Can either be a single string or an array of strings.
 
 ## Example
 
@@ -48,7 +48,11 @@ Assert that an authorized user has a specific permission.
         def delete(self):
             """Delete an existing thread (admin only)."""
             print(self.user_id) # Do something with the authorized user.
-            
+
+## Dependencies
+
+* [UserApp for Python](https://github.com/userapp-io/userapp-python) (userapp)
+
 ## License
 
 MIT
