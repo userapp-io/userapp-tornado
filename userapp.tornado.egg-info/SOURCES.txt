@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+userapp/__init__.py
+userapp.tornado.egg-info/PKG-INFO
+userapp.tornado.egg-info/SOURCES.txt
+userapp.tornado.egg-info/dependency_links.txt
+userapp.tornado.egg-info/entry_points.txt
+userapp.tornado.egg-info/namespace_packages.txt
+userapp.tornado.egg-info/not-zip-safe
+userapp.tornado.egg-info/requires.txt
+userapp.tornado.egg-info/top_level.txt
+userapp/tornado/__init__.py

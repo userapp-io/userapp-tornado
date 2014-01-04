@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: userapp.tornado
+Version: 0.3.2dev
+Summary: UserApp support for Tornado.
+Home-page: https://github.com/userapp-io/userapp-tornado
+Author: Robin Orheden
+Author-email: robin.orheden@userapp.io
+License: MIT
+Description: UNKNOWN
+Keywords: tornado userapp
+Platform: UNKNOWN
