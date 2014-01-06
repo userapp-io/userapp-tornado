@@ -51,9 +51,15 @@ Assert that an authorized user has a specific permission. Can either be a single
             """Delete an existing thread (admin only)."""
             print(self.user_id) # Do something with the authorized user.
 
+For a full demo app, see [Tempbox](https://github.com/userapp-io/tempbox-python-angularjs) − A temporary file storage demo app powered by UserApp, Python (Tornado) and AngularJS.
+
 ## Dependencies
 
 * [UserApp for Python](https://github.com/userapp-io/userapp-python) (userapp)
+
+## Help
+
+Contact us via email at support@userapp.io or visit our [support center](https://help.userapp.io).
 
 ## License
 
